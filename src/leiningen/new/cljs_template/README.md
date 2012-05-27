@@ -1,6 +1,6 @@
 # {{name}}
 
-A website written with Noir and ClojureScript.
+A Website written with Noir and ClojureScript in the manner of http://clojurescriptone.com
 
 ## Usage
 

@@ -5,7 +5,6 @@
 (def render (renderer "cljs_template"))
 
 (defn cljs-template
-  "FIXME: write documentation"
   [name]
   (let [data {:name name
               :sanitized (sanitize name)}]
@@ -13,8 +12,8 @@
              [".gitignore" (render "gitignore" data)]
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
-             ["resources/public/css/reset.css" (render "reset.css" data)]
-             ["resources/public/css/default.css" (render "default.css" data)]
+             ;;["resources/public/css/reset.css" (render "css/reset.css" data)]
+             ;;["resources/public/css/default.css" (render "default.css" data)]
              ["src/{{sanitized}}/client/main.cljs" (render "main.cljs" data)]
              ["src/{{sanitized}}/models/user.clj" (render "user.clj" data)]
              ["src/{{sanitized}}/views/common.clj" (render "common.clj" data)]

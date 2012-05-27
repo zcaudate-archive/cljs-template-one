@@ -1,4 +1,6 @@
-# cljs-template
+# cljs-template-one
+
+This is a complete ripoff of cljs-template
 
 A Leiningen template for Noir + ClojureScript projects.
 
