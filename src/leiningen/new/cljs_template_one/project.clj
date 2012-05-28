@@ -9,6 +9,8 @@
                  [crate "0.2.0-alpha2"]
                  [noir "1.3.0-beta7"]]
   :plugins [[lein-git-deps "0.0.1-SNAPSHOT"]]
-  :git-dependencies [["https://github.com/twitter/bootstrap.git"]]
+  :dev-dependencies [[lein-git-deps "0.0.1-SNAPSHOT"]]
+  :git-dependencies [["https://github.com/twitter/bootstrap.git"]
+                     ["https://github.com/cloudhead/less.js.git"]]
   :cljsbuild {:builds [{}]}
   :main ^{:skip-aot true} {{name}}.server)
