@@ -1,5 +1,8 @@
 # cljs-template-one
 
+An example of what the template generates can be seen here.
+http://cljs-bootstrapped.herokuapp.com/
+
 I'm doing this as more of a learning exercise to bring together a number of projects that have helped me greatly in understanding development. Having spent a great deal of time looking at the [Clojurescript One](http://http://clojurescriptone.com/) source [code](https://github.com/brentonashworth/one) as well as the excellent [tutorials](https://github.com/brentonashworth/one/wiki) that were written for the framework. I thought the application was a fantastic and expanded my imagination of what was possible.
 
 However, as a beginner to clojurescript, I found that 'One' had too much code to look at. In the end, I gave up. There were too many things going on for my liking and I did not dare tinker with the code for fear of breaking the app completely (which I did a number of times).
