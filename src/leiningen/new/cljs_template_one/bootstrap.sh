@@ -15,4 +15,4 @@ cp .lein-git-deps/less.js/dist/less-1.3.0.js resources/public/js/
 
 #from one
 cp .lein-git-deps/one/public/images/*.png resources/public/img/
-cp .lein-git-deps/one/public/css/fonts resources/css/
+cp -r .lein-git-deps/one/public/css/fonts resources/public/css/

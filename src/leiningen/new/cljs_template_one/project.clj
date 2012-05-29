@@ -14,4 +14,4 @@
                      ["https://github.com/cloudhead/less.js.git"]
                      ["https://github.com/brentonashworth/one.git"]]
   :cljsbuild {:builds [{}]}
-  :main ^{:skip-aot true} start-one.server)
+  :main ^{:skip-aot true} {{name}}.server)
