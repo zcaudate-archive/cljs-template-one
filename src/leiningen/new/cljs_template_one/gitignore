@@ -4,3 +4,8 @@ pom.xml
 /classes/
 .lein-deps-sum
 resources/public/cljs/
+resources/public/js/
+.lein-git-deps/
+.lein-cljsbuild-repl/
+stale/
+target/

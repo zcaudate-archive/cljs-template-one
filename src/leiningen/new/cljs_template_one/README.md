@@ -1,11 +1,15 @@
 # {{name}}
 
-A Website written with Noir and ClojureScript in the manner of http://clojurescriptone.com
+A website written with Noir and ClojureScript in the manner of http://clojurescriptone.com
 
 ## Usage
 
 ```bash
-lein deps
+First time users run:
+
+chmod +x ./bootstrap.sh
+./bootstrap.sh
+
 lein run
 ```
 

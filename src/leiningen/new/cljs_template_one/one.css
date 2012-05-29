@@ -1,0 +1,127 @@
+
+
+#oneapp-form{
+  background: url('/img/form-background-gradient.png') center center no-repeat;
+  height: 447px;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+#oneapp-form #form-contents{
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#oneapp-form #name-input{
+  margin: 20px auto;
+  float: none;
+  text-align: center;
+}
+
+#oneapp-form h1 {
+  font-family: "Chunkfive", serif;
+  font-size: 5.4em;
+  color: #3c4764;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 1.0);
+  margin-bottom: 30px;
+}
+
+#oneapp-form label#name-input-label{
+  color: #909090;
+  font-family: "Museo300", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+
+
+#oneapp-greeting {
+  background: url("/img/greeting-cloud.png") top center no-repeat;
+  margin: 120px auto;
+  width: 494px;
+  height: 344px;
+}
+
+#oneapp-greeting h2, #oneapp-greeting h3
+{
+  border-bottom: none;
+  color: #57c142;
+  font-family: "Museo700", serif;
+  text-shadow: 0 1px 0 #3e3e3e;
+}
+
+#oneapp-greeting h2 {
+  font-size: 3.2em;
+  padding: 122px 0 10px 0;
+  margin: auto;
+}
+
+#oneapp-greeting > * {
+  margin: 0 auto;
+}
+
+#oneapp-greeting .break {
+  border-bottom: 3px dashed #d9dee9;
+  height: 5px;
+  width: 370px;
+  padding-left: 100px;
+}
+
+#oneapp-greeting h3 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+#oneapp-greeting{
+  text-align: center;
+}
+
+#oneapp-greeting input{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "Chunkfive";
+  src: url("fonts/Chunkfive-webfont.eot");
+  src: local("☺"),
+    url("fonts/Chunkfive-webfont.woff") format("woff"),
+    url("fonts/Chunkfive-webfont.otf") format("opentype"),
+    url("fonts/Chunkfive-webfont.svg#Chunkfive-webfont") format("svg");
+}
+
+@font-face {
+    font-family: 'Museo300';
+    src: url('fonts/Museo300-Regular-webfont.eot');
+    src: url('fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo300-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo300-Regular-webfont.svg#Museo300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo500';
+    src: url('fonts/Museo500-Regular-webfont.eot');
+    src: url('fonts/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo500-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo500-Regular-webfont.svg#Museo500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo700';
+    src: url('fonts/Museo700-Regular-webfont.eot');
+    src: url('fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo700-Regular-webfont.svg#Museo700') format('svg');
+    font-weight: normal;
+    font-style: normal;

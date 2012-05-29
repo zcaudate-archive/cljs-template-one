@@ -11,6 +11,7 @@
   :plugins [[lein-git-deps "0.0.1-SNAPSHOT"]]
   :dev-dependencies [[lein-git-deps "0.0.1-SNAPSHOT"]]
   :git-dependencies [["https://github.com/twitter/bootstrap.git"]
-                     ["https://github.com/cloudhead/less.js.git"]]
+                     ["https://github.com/cloudhead/less.js.git"]
+                     ["https://github.com/brentonashworth/one.git"]]
   :cljsbuild {:builds [{}]}
-  :main ^{:skip-aot true} {{name}}.server)
+  :main ^{:skip-aot true} start-one.server)
